@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Kanit:wght@300&family=Luxurious+Roman&family=Nunito:wght@200&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Kanit:wght@300&family=Luxurious+Roman&family=Montserrat:wght@500&family=Nunito:wght@200&family=Poppins:wght@500&family=Titan+One&display=swap" rel="stylesheet">
+    <!-- ATAS FONT -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="container">
+            <!-- Navigation bar start -->
+            <div class="navwrapper">
+                <ul class="navigation">
+                    <li class="nav"><a href="#home" class="navlink">Home</a></li>
+                    <li class="nav"><a href="#About" class="navlink">About</a></li>
+                    <li class="nav"><a href="#Contact" class="navlink">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contentwrapper"><h1>Home Template</h1></div>
+        </div>
+    </section>
+    <section id="About">
+        <div class="container blueviolet">
+            <div class="contentwrapper"><h1>About</h1></div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container blue">
+            <div class="contentwrapper"><h1>Contact</h1></div>
+        </div>
+    </section>
+    <div class="top" onclick="goToTop()">☝</div>
+    <script>
+        const goToTop = () =>{
+            return location.href="#home"
+        }
+    </script>
+</body>
+</html>
