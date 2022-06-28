@@ -11,3 +11,5 @@ Penjelasan :
 3. Membuat logo diatas web/Favicon 
 
 Jadi ini masih seputaran html dan css ( walaupun ada js ya gpp deh )
+
+
